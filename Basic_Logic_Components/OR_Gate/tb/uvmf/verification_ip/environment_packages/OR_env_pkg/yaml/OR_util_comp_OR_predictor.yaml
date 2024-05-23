@@ -1,0 +1,11 @@
+uvmf:
+  util_components:
+    OR_predictor:
+      analysis_exports:
+      - name: OR_in_agent_ae
+        type: 'OR_in_transaction #()'
+      analysis_ports:
+      - name: OR_sb_ap
+        type: 'OR_out_transaction #()'
+      existing_library_component: 'True'
+      type: predictor

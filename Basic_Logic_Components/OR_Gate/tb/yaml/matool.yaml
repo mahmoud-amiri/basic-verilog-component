@@ -1,0 +1,13 @@
+OR:  
+  interfaces:
+    in: 
+      parameters: 
+        - parameter WIDTH = 8,
+      ports:  
+        - input [WIDTH-1:0] a,
+        - input [WIDTH-1:0] b,
+    out: 
+      parameters: 
+        - parameter WIDTH = 8,
+      ports:  
+        - output [WIDTH-1:0] y,   

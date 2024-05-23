@@ -1,0 +1,34 @@
+uvmf:
+  interfaces:
+    OR_in:
+      clock: clk
+      reset: rst
+      reset_assertion_level: 'False'
+      config_constraints: []
+      config_vars: []
+      hdl_typedefs: []
+      hvl_typedefs: []
+      parameters:
+      - name: OR_in_WIDTH
+        type: int
+        value: '8'
+      ports:
+      - name: a
+        dir: output
+        width: OR_in_WIDTH
+      - name: b
+        dir: output
+        width: OR_in_WIDTH
+      response_info:
+        data: []
+        operation: 1'b0
+      transaction_constraints: []
+      transaction_vars:
+      - name: a
+        type: bit [OR_in_WIDTH-1:0]
+        iscompare: 'True'
+        isrand: 'True'
+      - name: b
+        type: bit [OR_in_WIDTH-1:0]
+        iscompare: 'True'
+        isrand: 'True'

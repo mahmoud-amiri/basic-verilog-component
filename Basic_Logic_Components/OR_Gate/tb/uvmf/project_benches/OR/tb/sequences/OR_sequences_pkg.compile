@@ -1,0 +1,14 @@
+needs:
+# pragma uvmf custom needs_additional begin
+# pragma uvmf custom needs_additional end
+  - $UVMF_HOME/uvmf_base_pkg/uvmf_base_pkg.compile
+  - ../../../../verification_ip/interface_packages/OR_in_pkg/OR_in.compile
+  - ../../../../verification_ip/interface_packages/OR_out_pkg/OR_out.compile
+  - ../../../../verification_ip/environment_packages/OR_env_pkg/OR_env_pkg.compile
+  - ../parameters/OR_parameters_pkg.compile
+src:
+# pragma uvmf custom src_additional begin
+# pragma uvmf custom src_additional end
+  - OR_sequences_pkg.sv
+# pragma uvmf custom compile_additional begin
+# pragma uvmf custom compile_additional end

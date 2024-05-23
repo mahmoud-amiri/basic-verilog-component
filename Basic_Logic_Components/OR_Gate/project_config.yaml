@@ -1,0 +1,9 @@
+project:
+  name: "OR-Gate"
+  description: "This is an implementation of OR gate"
+  hierarchy:
+    - module_name: "or gate"
+      files:
+        - path: "hdl/or_gate.v"
+
+        

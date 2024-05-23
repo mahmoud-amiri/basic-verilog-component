@@ -1,0 +1,38 @@
+uvmf:
+  environments:
+    OR:
+      agents:
+      - initiator_responder: INITIATOR
+        name: OR_in_agent
+        type: OR_in
+      - initiator_responder: RESPONDER
+        name: OR_out_agent
+        type: OR_out
+      analysis_components:
+      - name: OR_pred
+        parameters: []
+        type: OR_predictor
+      analysis_exports: []
+      analysis_ports: []
+      config_constraints: []
+      config_vars: []
+      existing_library_component: 'True'
+      hvl_pkg_parameters: []
+      non_uvmf_components: []
+      parameters: []
+      qvip_memory_agents: []
+      scoreboards:
+      - name: OR_sb
+        sb_type: uvmf_in_order_scoreboard
+        trans_type: OR_out_transaction
+      subenvs: []
+      tlm_connections:
+      - driver: OR_in_agent.monitored_ap
+        receiver: OR_pred.OR_in_agent_ae
+        validate: 'True'
+      - driver: OR_pred.OR_sb_ap
+        receiver: OR_sb.expected_analysis_export
+        validate: 'True'
+      - driver: OR_out_agent.monitored_ap
+        receiver: OR_sb.actual_analysis_export
+        validate: 'True'
