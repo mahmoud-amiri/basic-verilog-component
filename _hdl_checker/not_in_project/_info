@@ -1,0 +1,56 @@
+m255
+K4
+z2
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dd:/github/basic-verilog-component
+vmoduleName
+!s110 1716472003
+!i10b 1
+!s100 GV7kI54bZG956QR8bNNJj1
+I@gm[19Y2OiiQoIZ8izM0d3
+Z0 dd:/GitHub/basic-verilog-component
+w1716472002
+8C:\Users\mamir\AppData\Local\Temp\tmp6beuleod.v
+FC:\Users\mamir\AppData\Local\Temp\tmp6beuleod.v
+!i122 11
+L0 1 5
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 OL;L;2021.1;73
+r1
+!s85 0
+31
+!s108 1716472003.000000
+!s107 C:\Users\mamir\AppData\Local\Temp\tmp6beuleod.v|
+!s90 -modelsimini|d:\GitHub\basic-verilog-component\_hdl_checker\modelsim.ini|-quiet|-work|d:\GitHub\basic-verilog-component\_hdl_checker\not_in_project|-lint|-hazards|-pedanticerrors|-L|not_in_project|C:\Users\mamir\AppData\Local\Temp\tmp6beuleod.v|
+!i113 0
+Z3 o-quiet -work {d:\GitHub\basic-verilog-component\_hdl_checker\not_in_project} -lint -hazards -pedanticerrors -L not_in_project -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z4 tCvgOpt 0
+nmodule@name
+vor_gate
+!s110 1716487694
+!i10b 1
+!s100 c0ON8CfBO>C2WQ>O]^7>i3
+IO<VP02kF9c]k:n>UHF]0d2
+R0
+w1716487694
+8C:\Users\mamir\AppData\Local\Temp\tmp8bhz0rlr.v
+FC:\Users\mamir\AppData\Local\Temp\tmp8bhz0rlr.v
+!i122 27
+L0 1 7
+R1
+R2
+r1
+!s85 0
+31
+!s108 1716487694.000000
+!s107 C:\Users\mamir\AppData\Local\Temp\tmp8bhz0rlr.v|
+!s90 -modelsimini|d:\GitHub\basic-verilog-component\_hdl_checker\modelsim.ini|-quiet|-work|d:\GitHub\basic-verilog-component\_hdl_checker\not_in_project|-lint|-hazards|-pedanticerrors|-L|not_in_project|C:\Users\mamir\AppData\Local\Temp\tmp8bhz0rlr.v|
+!i113 0
+R3
+R4

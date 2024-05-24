@@ -1,0 +1,3 @@
+$UVMF_VIP_LIBRARY_HOME/interface_packages/AND_inputs_pkg/src/AND_inputs_if.sv
+$UVMF_VIP_LIBRARY_HOME/interface_packages/AND_inputs_pkg/src/AND_inputs_monitor_bfm.sv
+$UVMF_VIP_LIBRARY_HOME/interface_packages/AND_inputs_pkg/src/AND_inputs_driver_bfm.sv

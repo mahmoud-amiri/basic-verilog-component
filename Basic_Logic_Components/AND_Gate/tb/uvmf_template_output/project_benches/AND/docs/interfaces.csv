@@ -1,0 +1,14 @@
+//----------------------------------------------------------------------
+// Created with uvmf_gen version 2023.4
+//----------------------------------------------------------------------
+// pragma uvmf custom header begin
+// pragma uvmf custom header end
+//----------------------------------------------------------------------
+//----------------------------------------------------------------------
+//
+
+,
+Interface Description, Interface Type, Interface Transaction, Interface Name,
+AND_inputs_agent, AND_inputs_driver_bfm AND_inputs_monitor_bfm, AND_inputs_transaction, AND_inputs_pkg_AND_inputs_agent_BFM,
+AND_output_agent, AND_output_driver_bfm AND_output_monitor_bfm, AND_output_transaction, AND_output_pkg_AND_output_agent_BFM,
+

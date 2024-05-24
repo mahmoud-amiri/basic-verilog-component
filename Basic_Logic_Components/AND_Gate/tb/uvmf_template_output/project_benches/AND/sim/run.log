@@ -1,0 +1,75 @@
+QuestaSim-64 qrun 2021.1 Utility 2021.01 Jan 19 2021
+Start time: 09:15:31 on May 22,2024
+qrun -64 -gui -onfinish stop -classdebug -uvmcontrol=all -msgmode both "+uvm_set_config_int=*,enable_transaction_viewing,1" -permit_unmatched_virtual_intf -l run.log -f D:\github\basic-verilog-component\Basic-Logic-Components\AND-Gate\tb\uvmf_template_output\project_benches\AND\sim\top.qf -sv_seed 0 -msglimit error -msglimitcount 20 -do "set IterationLimit 140000; set NoQuitOnFinish 1; coverage attribute -name TESTNAME -value test_top; coverage save -onexit test_top.ucdb;onbreak {resume}; set PrefSource (OpenOnBreak) 0; radix hex showbase;;run 0; do wave.do" -coverage "+cover=sbfec+/hdl_top/DUT." "+UVM_TESTNAME=test_top" "+acc" "+uvm_set_config_int=*,enable_transaction_viewing,1" -top hdl_top -top hvl_top -suppress 8887,2286 -covermultiuserenv 
+** Warning: (vlog-159) Mode option -64 is not supported in this context and will be ignored.
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+Start time: 09:15:31 on May 22,2024
+vlog -64 "+incdir+D:\github\basic-verilog-component\Basic-Logic-Components\AND-Gate\tb\uvmf_template_output\verification_ip\interface_packages\AND_inputs_pkg" "+incdir+C:/questasim64_2021.1/verilog_src/uvm-1.1d/src" "+incdir+D:\github\basic-verilog-component\Basic-Logic-Components\AND-Gate\tb\uvmf_template_output\verification_ip\interface_packages\AND_output_pkg" "+incdir+D:\github\basic-verilog-component\Basic-Logic-Components\AND-Gate\tb\uvmf_template_output\project_benches\AND\tb\testbench" -msglimit error -msglimitcount 20 -covermultiuserenv -suppress 8887,2286 C:\UVMF_2023.4\UVMF_2023.4\uvmf_base_pkg\uvmf_base_pkg_hdl.sv C:\UVMF_2023.4\UVMF_2023.4\uvmf_base_pkg\uvmf_base_pkg.sv D:\github\basic-verilog-component\Basic-Logic-Components\AND-Gate\tb\uvmf_template_output\verification_ip\interface_packages\AND_inputs_pkg\AND_inputs_pkg_hdl.sv D:\github\basic-verilog-component\Basic-Logic-Components\AND-Gate\tb\uvmf_template_output\verification_ip\interface_packages\AND_inputs_pkg\AND_inputs_pkg.sv D:\github\basic-verilog-component\Basic-Logic-Components\AND-Gate\tb\uvmf_template_output\verification_ip\interface_packages\AND_inputs_pkg\src\AND_inputs_if.sv D:\github\basic-verilog-component\Basic-Logic-Components\AND-Gate\tb\uvmf_template_output\verification_ip\interface_packages\AND_inputs_pkg\src\AND_inputs_monitor_bfm.sv D:\github\basic-verilog-component\Basic-Logic-Components\AND-Gate\tb\uvmf_template_output\verification_ip\interface_packages\AND_inputs_pkg\src\AND_inputs_driver_bfm.sv D:\github\basic-verilog-component\Basic-Logic-Components\AND-Gate\tb\uvmf_template_output\verification_ip\interface_packages\AND_output_pkg\AND_output_pkg_hdl.sv D:\github\basic-verilog-component\Basic-Logic-Components\AND-Gate\tb\uvmf_template_output\verification_ip\interface_packages\AND_output_pkg\AND_output_pkg.sv D:\github\basic-verilog-component\Basic-Logic-Components\AND-Gate\tb\uvmf_template_output\verification_ip\interface_packages\AND_output_pkg\src\AND_output_if.sv D:\github\basic-verilog-component\Basic-Logic-Components\AND-Gate\tb\uvmf_template_output\verification_ip\interface_packages\AND_output_pkg\src\AND_output_monitor_bfm.sv D:\github\basic-verilog-component\Basic-Logic-Components\AND-Gate\tb\uvmf_template_output\verification_ip\interface_packages\AND_output_pkg\src\AND_output_driver_bfm.sv D:\github\basic-verilog-component\Basic-Logic-Components\AND-Gate\tb\uvmf_template_output\verification_ip\environment_packages\AND_env_pkg\AND_env_pkg.sv D:\github\basic-verilog-component\Basic-Logic-Components\AND-Gate\tb\uvmf_template_output\project_benches\AND\tb\parameters\AND_parameters_pkg.sv D:\github\basic-verilog-component\Basic-Logic-Components\AND-Gate\tb\uvmf_template_output\project_benches\AND\tb\sequences\AND_sequences_pkg.sv D:\github\basic-verilog-component\Basic-Logic-Components\AND-Gate\tb\uvmf_template_output\project_benches\AND\tb\tests\AND_tests_pkg.sv D:\github\basic-verilog-component\Basic-Logic-Components\AND-Gate\tb\uvmf_template_output\project_benches\AND\tb\testbench\hvl_top.sv D:\github\basic-verilog-component\Basic-Logic-Components\AND-Gate\tb\uvmf_template_output\project_benches\AND\rtl\verilog\verilog_dut.v D:\github\basic-verilog-component\Basic-Logic-Components\AND-Gate\tb\uvmf_template_output\project_benches\AND\tb\testbench\hdl_top.sv -work qrun.out/work -csession=incr -writesessionid "+qrun.out/top_dus" -statslog qrun.out/stats_log 
+-- Skipping C:\UVMF_2023.4\UVMF_2023.4\uvmf_base_pkg\uvmf_base_pkg_hdl.sv
+-- Skipping C:\UVMF_2023.4\UVMF_2023.4\uvmf_base_pkg\uvmf_base_pkg.sv
+-- Skipping D:\github\basic-verilog-component\Basic-Logic-Components\AND-Gate\tb\uvmf_template_output\verification_ip\interface_packages\AND_inputs_pkg\AND_inputs_pkg_hdl.sv
+-- Skipping D:\github\basic-verilog-component\Basic-Logic-Components\AND-Gate\tb\uvmf_template_output\verification_ip\interface_packages\AND_inputs_pkg\AND_inputs_pkg.sv
+-- Skipping D:\github\basic-verilog-component\Basic-Logic-Components\AND-Gate\tb\uvmf_template_output\verification_ip\interface_packages\AND_inputs_pkg\src\AND_inputs_if.sv
+-- Skipping D:\github\basic-verilog-component\Basic-Logic-Components\AND-Gate\tb\uvmf_template_output\verification_ip\interface_packages\AND_inputs_pkg\src\AND_inputs_monitor_bfm.sv
+-- Skipping D:\github\basic-verilog-component\Basic-Logic-Components\AND-Gate\tb\uvmf_template_output\verification_ip\interface_packages\AND_inputs_pkg\src\AND_inputs_driver_bfm.sv
+-- Skipping D:\github\basic-verilog-component\Basic-Logic-Components\AND-Gate\tb\uvmf_template_output\verification_ip\interface_packages\AND_output_pkg\AND_output_pkg_hdl.sv
+-- Skipping D:\github\basic-verilog-component\Basic-Logic-Components\AND-Gate\tb\uvmf_template_output\verification_ip\interface_packages\AND_output_pkg\AND_output_pkg.sv
+-- Skipping D:\github\basic-verilog-component\Basic-Logic-Components\AND-Gate\tb\uvmf_template_output\verification_ip\interface_packages\AND_output_pkg\src\AND_output_if.sv
+-- Skipping D:\github\basic-verilog-component\Basic-Logic-Components\AND-Gate\tb\uvmf_template_output\verification_ip\interface_packages\AND_output_pkg\src\AND_output_monitor_bfm.sv
+-- Skipping D:\github\basic-verilog-component\Basic-Logic-Components\AND-Gate\tb\uvmf_template_output\verification_ip\interface_packages\AND_output_pkg\src\AND_output_driver_bfm.sv
+-- Skipping D:\github\basic-verilog-component\Basic-Logic-Components\AND-Gate\tb\uvmf_template_output\verification_ip\environment_packages\AND_env_pkg\AND_env_pkg.sv
+-- Skipping D:\github\basic-verilog-component\Basic-Logic-Components\AND-Gate\tb\uvmf_template_output\project_benches\AND\tb\parameters\AND_parameters_pkg.sv
+-- Skipping D:\github\basic-verilog-component\Basic-Logic-Components\AND-Gate\tb\uvmf_template_output\project_benches\AND\tb\sequences\AND_sequences_pkg.sv
+-- Skipping D:\github\basic-verilog-component\Basic-Logic-Components\AND-Gate\tb\uvmf_template_output\project_benches\AND\tb\tests\AND_tests_pkg.sv
+-- Skipping D:\github\basic-verilog-component\Basic-Logic-Components\AND-Gate\tb\uvmf_template_output\project_benches\AND\tb\testbench\hvl_top.sv
+-- Skipping D:\github\basic-verilog-component\Basic-Logic-Components\AND-Gate\tb\uvmf_template_output\project_benches\AND\rtl\verilog\verilog_dut.v
+-- Compiling module hdl_top
+-- Importing package AND_parameters_pkg
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+
+Top level modules:
+	hdl_top
+End time: 09:15:31 on May 22,2024, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1
+-- Skipping 'vcom -64 -msglimit error -msglimitcount 20 -suppress 8887,22...'
+QuestaSim-64 vopt 2021.1 Compiler 2021.01 Jan 19 2021
+Start time: 09:15:32 on May 22,2024
+vopt -msglimit error -msglimitcount 20 "+cover=sbfec+/hdl_top/DUT." "+acc" hdl_top hvl_top -work qrun.out/work -debugdb -fsmdebug -statslog qrun.out/stats_log -suppress 8887,2286 -o qrun_opt 
+
+Top level modules:
+	hdl_top
+	hvl_top
+
+Analyzing design...
+-- Loading module hdl_top
+-- Importing package AND_parameters_pkg
+-- Importing package uvmf_base_pkg_hdl
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Loading module hvl_top
+-- Importing package AND_tests_pkg
+-- Importing package uvmf_base_pkg
+-- Importing package AND_env_pkg
+-- Importing package AND_inputs_pkg
+-- Importing package AND_inputs_pkg_hdl
+-- Importing package AND_output_pkg
+-- Importing package AND_output_pkg_hdl
+-- Importing package AND_sequences_pkg
+-- Loading package mtiUvm.questa_uvm_pkg
+-- Loading interface AND_inputs_monitor_bfm
+-- Loading interface AND_inputs_driver_bfm
+-- Loading interface AND_output_monitor_bfm
+-- Loading interface AND_output_driver_bfm
+-- Loading interface AND_inputs_if
+-- Loading interface AND_output_if
+** Error: D:\github\basic-verilog-component\Basic-Logic-Components\AND-Gate\tb\uvmf_template_output\project_benches\AND\tb\testbench\hdl_top.sv(80): Module 'AND' is not defined.
+Optimization failed
+End time: 09:15:32 on May 22,2024, Elapsed time: 0:00:00
+Errors: 1, Warnings: 0
+child process exited abnormally
+End time: 09:15:32 on May 22,2024, Elapsed time: 0:00:01
+*** Summary *********************************************
+    qrun: Errors:   0, Warnings:   0
+    vlog: Errors:   0, Warnings:   1
+    vopt: Errors:   1, Warnings:   0
+  Totals: Errors:   1, Warnings:   1

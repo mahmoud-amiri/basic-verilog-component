@@ -1,0 +1,20 @@
+uvmf:
+  benches:
+    AND:   
+    
+      active_passive: #define active or passive agents
+      - bfm_name: AND_inputs_agent
+        value: ACTIVE   #ACTIVE :generating stimulus and monitoring the signal interface #PASSIVE :will not drive stimulus as it only monitors DUT output signals
+      - bfm_name: AND_output_agent
+        value: PASSIVE   #ACTIVE :generating stimulus and monitoring the signal interface #PASSIVE :will not drive stimulus as it only monitors DUT output signals
+      
+    
+      clock_half_period: 5ns 
+      clock_phase_offset: 9ns
+    
+      interface_params: []
+    
+      reset_assertion_level: 'False'  
+      reset_duration: 200ns         
+    
+      top_env: AND

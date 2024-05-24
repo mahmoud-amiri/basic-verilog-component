@@ -1,0 +1,6 @@
+@use $UVMF_HOME/uvmf_base_pkg/uvmf_base_pkg_hdl.vinfo
+@use AND_inputs_pkg_hdl.vinfo
++incdir+@vinfodir
+src/AND_inputs_if.sv
+src/AND_inputs_driver_bfm.sv
+src/AND_inputs_monitor_bfm.sv

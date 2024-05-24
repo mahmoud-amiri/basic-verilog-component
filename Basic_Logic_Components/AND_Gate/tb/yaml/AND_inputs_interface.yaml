@@ -1,0 +1,44 @@
+
+uvmf:
+  interfaces:
+    AND_inputs: #interface name
+      clock: clk
+      reset: rst
+      reset_assertion_level: 'False'  #reset active low polarity
+
+      config_constraints: []
+      config_vars: []
+
+      hdl_typedefs: []
+      hvl_typedefs: []
+
+      parameters: # Any parameters defined here will impact be passed to multiple classes within the agent
+      - name: AND_INPUTS_WIDTH
+        type: int
+        value: '8'
+
+      ports:  #Here we define all of the signal names, directions and widths for the agent/interface
+      - name: a
+        dir: output #Direction specified here is in relation to the testbench
+        width: AND_INPUTS_WIDTH
+      - name: b
+        dir: output #Direction specified here is in relation to the testbench
+        width: AND_INPUTS_WIDTH
+
+
+      response_info:
+        data: []  #The data directive allows the user to specify what response data should be passed back from the driver to the originating sequence.
+        operation: 1'b0
+
+      transaction_constraints: []  #Defines any constraints to be used on the transaction variables
+
+      transaction_vars: #Defines any variable to be used by the transaction class.
+      - name: a
+        type: bit [AND_INPUTS_WIDTH-1:0]
+        iscompare: 'True'
+        isrand: 'True' 
+      - name: b
+        type: bit [AND_INPUTS_WIDTH-1:0]
+        iscompare: 'True'
+        isrand: 'True'
+    

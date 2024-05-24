@@ -1,0 +1,5 @@
+@use $UVMF_HOME/uvmf_base_pkg/uvmf_base_pkg.vinfo
+@use $UVMF_VIP_LIBRARY_HOME/interface_packages/AND_inputs_pkg/AND_inputs_pkg.vinfo
+@use $UVMF_VIP_LIBRARY_HOME/interface_packages/AND_output_pkg/AND_output_pkg.vinfo
++incdir+@vinfodir
+AND_env_pkg.sv

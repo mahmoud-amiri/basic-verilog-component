@@ -1,0 +1,38 @@
+uvmf:
+  environments:
+    AND:
+      agents:
+      - initiator_responder: INITIATOR
+        name: AND_inputs_agent
+        type: AND_inputs
+      - initiator_responder: RESPONDER
+        name: AND_output_agent
+        type: AND_output
+      analysis_components:
+      - name: AND_pred
+        parameters: []
+        type: AND_predictor
+      analysis_exports: []
+      analysis_ports: []
+      config_constraints: []
+      config_vars: []
+      existing_library_component: 'True'
+      hvl_pkg_parameters: []
+      non_uvmf_components: []
+      parameters: []
+      qvip_memory_agents: []
+      scoreboards:
+      - name: AND_sb
+        sb_type: uvmf_in_order_scoreboard
+        trans_type: AND_output_transaction
+      subenvs: []
+      tlm_connections:
+      - driver: AND_inputs_agent.monitored_ap
+        receiver: AND_pred.AND_inputs_agent_ae
+        validate: 'True'
+      - driver: AND_pred.AND_sb_ap
+        receiver: AND_sb.expected_analysis_export
+        validate: 'True'
+      - driver: AND_output_agent.monitored_ap
+        receiver: AND_sb.actual_analysis_export
+        validate: 'True'

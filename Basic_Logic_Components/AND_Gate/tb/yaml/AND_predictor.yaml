@@ -1,0 +1,11 @@
+uvmf:
+  util_components:
+    AND_predictor:  
+      analysis_exports: #Tells UVMF code generator to create exports/ports with the specified names and specified transaction types
+      #Tells UVMF code generator to create exports/ports with the specified names and specified transaction types
+      - name: AND_inputs_agent_ae
+        type: 'AND_inputs_transaction #()'
+      analysis_ports:
+      - name: AND_sb_ap
+        type: 'AND_output_transaction #()'
+      type: predictor #do not change

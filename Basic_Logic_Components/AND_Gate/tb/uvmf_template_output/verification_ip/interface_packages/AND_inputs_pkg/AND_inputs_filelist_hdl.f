@@ -1,0 +1,1 @@
+$UVMF_VIP_LIBRARY_HOME/interface_packages/AND_inputs_pkg/AND_inputs_pkg_hdl.sv
