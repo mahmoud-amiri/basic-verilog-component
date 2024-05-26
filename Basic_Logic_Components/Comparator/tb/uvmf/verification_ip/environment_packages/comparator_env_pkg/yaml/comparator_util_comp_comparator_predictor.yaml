@@ -1,0 +1,11 @@
+uvmf:
+  util_components:
+    comparator_predictor:
+      analysis_exports:
+      - name: comparator_in_agent_ae
+        type: 'comparator_in_transaction #()'
+      analysis_ports:
+      - name: comparator_sb_ap
+        type: 'comparator_out_transaction #()'
+      existing_library_component: 'True'
+      type: predictor

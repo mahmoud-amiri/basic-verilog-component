@@ -1,0 +1,52 @@
+uvmf:
+  interfaces:
+    comparator_out:
+      clock: clk
+      config_constraints: []
+      config_vars: []
+      existing_library_component: 'True'
+      gen_inbound_streaming_driver: 'False'
+      hdl_pkg_parameters: []
+      hdl_typedefs: []
+      hvl_pkg_parameters: []
+      hvl_typedefs: []
+      parameters:
+      - name: comparator_out_WIDTH
+        type: int
+        value: '8'
+      ports:
+      - dir: input
+        name: GT
+        reset_value: '''b0'
+        width: '1'
+      - dir: input
+        name: LT
+        reset_value: '''b0'
+        width: '1'
+      - dir: input
+        name: EQ
+        reset_value: '''b0'
+        width: '1'
+      reset: rst
+      reset_assertion_level: 'False'
+      transaction_constraints: []
+      transaction_vars:
+      - comment: ''
+        iscompare: 'True'
+        isrand: 'False'
+        name: GT
+        type: bit [1-1:0]
+        unpacked_dimension: ''
+      - comment: ''
+        iscompare: 'True'
+        isrand: 'False'
+        name: LT
+        type: bit [1-1:0]
+        unpacked_dimension: ''
+      - comment: ''
+        iscompare: 'True'
+        isrand: 'False'
+        name: EQ
+        type: bit [1-1:0]
+        unpacked_dimension: ''
+      use_dpi_link: 'False'

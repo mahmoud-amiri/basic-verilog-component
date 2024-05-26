@@ -1,0 +1,34 @@
+uvmf:
+  interfaces:
+    comparator_in:
+      clock: clk
+      reset: rst
+      reset_assertion_level: 'False'
+      config_constraints: []
+      config_vars: []
+      hdl_typedefs: []
+      hvl_typedefs: []
+      parameters:
+      - name: comparator_in_WIDTH
+        type: int
+        value: '8'
+      ports:
+      - name: A
+        dir: output
+        width: comparator_in_WIDTH
+      - name: B
+        dir: output
+        width: comparator_in_WIDTH
+      response_info:
+        data: []
+        operation: 1'b0
+      transaction_constraints: []
+      transaction_vars:
+      - name: A
+        type: bit [comparator_in_WIDTH-1:0]
+        iscompare: 'True'
+        isrand: 'True'
+      - name: B
+        type: bit [comparator_in_WIDTH-1:0]
+        iscompare: 'True'
+        isrand: 'True'

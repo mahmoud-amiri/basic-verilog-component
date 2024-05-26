@@ -1,0 +1,17 @@
+uvmf:
+  benches:
+    comparator:
+      active_passive:
+      - bfm_name: comparator_in_agent
+        value: ACTIVE
+      - bfm_name: comparator_out_agent
+        value: PASSIVE
+      active_passive_default: ACTIVE
+      clock_half_period: 5ns
+      clock_phase_offset: 9ns
+      existing_library_component: 'True'
+      interface_params: []
+      reset_assertion_level: 'False'
+      reset_duration: 200ns
+      top_env: comparator
+      use_dpi_link: 'False'

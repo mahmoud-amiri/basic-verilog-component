@@ -1,0 +1,30 @@
+uvmf:
+  environments:
+    comparator:
+      agents:
+      - name: comparator_in_agent
+        type: comparator_in
+        initiator_responder: "INITIATOR"
+      - name: comparator_out_agent
+        type: comparator_out
+        initiator_responder: "RESPONDER"
+      analysis_components:
+      - name: comparator_pred
+        type: comparator_predictor
+      analysis_exports: []
+      analysis_ports: []
+      config_constraints: []
+      config_vars: []
+      parameters: []
+      scoreboards:
+      - name: comparator_sb
+        sb_type: uvmf_in_order_scoreboard
+        trans_type: comparator_out_transaction
+      subenvs: []
+      tlm_connections:
+      - driver: comparator_in_agent.monitored_ap
+        receiver: comparator_pred.comparator_in_agent_ae
+      - driver: comparator_pred.comparator_sb_ap
+        receiver: comparator_sb.expected_analysis_export
+      - driver: comparator_out_agent.monitored_ap
+        receiver: comparator_sb.actual_analysis_export

@@ -1,0 +1,14 @@
+//----------------------------------------------------------------------
+// Created with uvmf_gen version 2023.4
+//----------------------------------------------------------------------
+// pragma uvmf custom header begin
+// pragma uvmf custom header end
+//----------------------------------------------------------------------
+//----------------------------------------------------------------------
+//
+
+,
+Interface Description, Interface Type, Interface Transaction, Interface Name,
+comparator_in_agent, comparator_in_driver_bfm comparator_in_monitor_bfm, comparator_in_transaction, comparator_in_pkg_comparator_in_agent_BFM,
+comparator_out_agent, comparator_out_driver_bfm comparator_out_monitor_bfm, comparator_out_transaction, comparator_out_pkg_comparator_out_agent_BFM,
+

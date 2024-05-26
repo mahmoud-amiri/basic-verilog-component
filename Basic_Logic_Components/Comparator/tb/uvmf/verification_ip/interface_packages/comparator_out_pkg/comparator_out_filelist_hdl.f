@@ -1,0 +1,1 @@
+$UVMF_VIP_LIBRARY_HOME/interface_packages/comparator_out_pkg/comparator_out_pkg_hdl.sv

@@ -1,0 +1,38 @@
+uvmf:
+  environments:
+    comparator:
+      agents:
+      - initiator_responder: INITIATOR
+        name: comparator_in_agent
+        type: comparator_in
+      - initiator_responder: RESPONDER
+        name: comparator_out_agent
+        type: comparator_out
+      analysis_components:
+      - name: comparator_pred
+        parameters: []
+        type: comparator_predictor
+      analysis_exports: []
+      analysis_ports: []
+      config_constraints: []
+      config_vars: []
+      existing_library_component: 'True'
+      hvl_pkg_parameters: []
+      non_uvmf_components: []
+      parameters: []
+      qvip_memory_agents: []
+      scoreboards:
+      - name: comparator_sb
+        sb_type: uvmf_in_order_scoreboard
+        trans_type: comparator_out_transaction
+      subenvs: []
+      tlm_connections:
+      - driver: comparator_in_agent.monitored_ap
+        receiver: comparator_pred.comparator_in_agent_ae
+        validate: 'True'
+      - driver: comparator_pred.comparator_sb_ap
+        receiver: comparator_sb.expected_analysis_export
+        validate: 'True'
+      - driver: comparator_out_agent.monitored_ap
+        receiver: comparator_sb.actual_analysis_export
+        validate: 'True'

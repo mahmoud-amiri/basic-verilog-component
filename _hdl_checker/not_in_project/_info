@@ -10,22 +10,22 @@ z2
 cModel Technology
 dd:/github/basic-verilog-component
 vComparator
-!s110 1716726581
+!s110 1716728061
 !i10b 1
 !s100 V7<:Ch[EIzVjazQ_8F@iM2
 II4<K^BT2d>e05B63diFf53
 Z0 dd:/GitHub/basic-verilog-component
-w1716726315
+w1716728060
 8d:\GitHub\basic-verilog-component\Basic_Logic_Components\Comparator\hdl\Comparator.v
 Fd:\GitHub\basic-verilog-component\Basic_Logic_Components\Comparator\hdl\Comparator.v
-!i122 31
+!i122 43
 L0 1 27
 Z1 VDg1SIo80bB@j0V0VzS_@n1
 Z2 OL;L;2021.1;73
 r1
 !s85 0
 31
-!s108 1716726580.000000
+!s108 1716728061.000000
 !s107 d:\GitHub\basic-verilog-component\Basic_Logic_Components\Comparator\hdl\Comparator.v|
 !s90 -modelsimini|d:\GitHub\basic-verilog-component\_hdl_checker\modelsim.ini|-quiet|-work|d:\GitHub\basic-verilog-component\_hdl_checker\not_in_project|-lint|-hazards|-pedanticerrors|-L|work|d:\GitHub\basic-verilog-component\Basic_Logic_Components\Comparator\hdl\Comparator.v|
 !i113 0

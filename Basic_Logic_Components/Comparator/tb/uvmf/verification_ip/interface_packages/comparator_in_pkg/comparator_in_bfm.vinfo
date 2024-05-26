@@ -1,0 +1,6 @@
+@use $UVMF_HOME/uvmf_base_pkg/uvmf_base_pkg_hdl.vinfo
+@use comparator_in_pkg_hdl.vinfo
++incdir+@vinfodir
+src/comparator_in_if.sv
+src/comparator_in_driver_bfm.sv
+src/comparator_in_monitor_bfm.sv
