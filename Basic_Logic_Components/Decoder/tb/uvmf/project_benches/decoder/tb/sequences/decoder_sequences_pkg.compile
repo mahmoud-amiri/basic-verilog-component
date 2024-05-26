@@ -1,0 +1,14 @@
+needs:
+# pragma uvmf custom needs_additional begin
+# pragma uvmf custom needs_additional end
+  - $UVMF_HOME/uvmf_base_pkg/uvmf_base_pkg.compile
+  - ../../../../verification_ip/interface_packages/decoder_in_pkg/decoder_in.compile
+  - ../../../../verification_ip/interface_packages/decoder_out_pkg/decoder_out.compile
+  - ../../../../verification_ip/environment_packages/decoder_env_pkg/decoder_env_pkg.compile
+  - ../parameters/decoder_parameters_pkg.compile
+src:
+# pragma uvmf custom src_additional begin
+# pragma uvmf custom src_additional end
+  - decoder_sequences_pkg.sv
+# pragma uvmf custom compile_additional begin
+# pragma uvmf custom compile_additional end

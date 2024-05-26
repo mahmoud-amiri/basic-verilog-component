@@ -1,0 +1,38 @@
+uvmf:
+  environments:
+    decoder:
+      agents:
+      - initiator_responder: INITIATOR
+        name: decoder_in_agent
+        type: decoder_in
+      - initiator_responder: RESPONDER
+        name: decoder_out_agent
+        type: decoder_out
+      analysis_components:
+      - name: decoder_pred
+        parameters: []
+        type: decoder_predictor
+      analysis_exports: []
+      analysis_ports: []
+      config_constraints: []
+      config_vars: []
+      existing_library_component: 'True'
+      hvl_pkg_parameters: []
+      non_uvmf_components: []
+      parameters: []
+      qvip_memory_agents: []
+      scoreboards:
+      - name: decoder_sb
+        sb_type: uvmf_in_order_scoreboard
+        trans_type: decoder_out_transaction
+      subenvs: []
+      tlm_connections:
+      - driver: decoder_in_agent.monitored_ap
+        receiver: decoder_pred.decoder_in_agent_ae
+        validate: 'True'
+      - driver: decoder_pred.decoder_sb_ap
+        receiver: decoder_sb.expected_analysis_export
+        validate: 'True'
+      - driver: decoder_out_agent.monitored_ap
+        receiver: decoder_sb.actual_analysis_export
+        validate: 'True'
