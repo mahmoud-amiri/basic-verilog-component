@@ -163,10 +163,7 @@ end
     // task should return when a complete transfer has been observed.  Once this task is
     // exited with captured values, it is then called again to wait for and observe 
     // the next transfer. One clock cycle is consumed between calls to do_monitor.
-    @(posedge clk_i);
-    @(posedge clk_i);
-    @(posedge clk_i);
-    @(posedge clk_i);
+    OR_out_monitor_struct.y = y_i;
     // pragma uvmf custom do_monitor end
   endtask         
   

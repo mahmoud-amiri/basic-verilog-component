@@ -1,0 +1,11 @@
+uvmf:
+  util_components:
+    nand_gate_predictor:
+      analysis_exports:
+      - name: nand_gate_in_agent_ae
+        type: 'nand_gate_in_transaction #()'
+      analysis_ports:
+      - name: nand_gate_sb_ap
+        type: 'nand_gate_out_transaction #()'
+      existing_library_component: 'True'
+      type: predictor

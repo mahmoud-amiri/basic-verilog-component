@@ -1,0 +1,8 @@
+project:
+  name: "nand_gate"
+  description: "implementation of an nand gate in verilog"
+  hierarchy:
+    - module_name: "nand gate"
+      files:
+        - path: "hdl/nand_gate.v"
+      

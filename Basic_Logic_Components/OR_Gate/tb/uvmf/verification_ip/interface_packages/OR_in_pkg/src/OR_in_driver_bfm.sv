@@ -212,13 +212,12 @@ end
        //      b_o <= OR_in_initiator_struct.xyz;  //    [OR_in_WIDTH-1:0] 
        //    Initiator inout signals
     // Initiate a transfer using the data received.
-    @(posedge clk_i);
-    @(posedge clk_i);
-    // Wait for the responder to complete the transfer then place the responder data into 
-    // OR_in_responder_struct.
-    @(posedge clk_i);
-    @(posedge clk_i);
-    responder_struct = OR_in_responder_struct;
+      @(posedge clk_i);
+      a_o <= OR_in_initiator_struct.a;  //    [OR_in_WIDTH-1:0] 
+      b_o <= OR_in_initiator_struct.b;  //    [OR_in_WIDTH-1:0] 
+
+    // responder_struct = OR_in_responder_struct;
+
   endtask        
 // pragma uvmf custom initiate_and_get_response end
 

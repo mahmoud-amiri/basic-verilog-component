@@ -32,8 +32,8 @@ file delete -force sv_connect.*
 vlib work 
 # pragma uvmf custom dut_compile_dofile_target begin
 # UVMF_CHANGE_ME : Add commands to compile your dut here, replacing the default examples
-vlog -sv -timescale 1ps/1ps -suppress 2223,2286 $env(UVMF_PROJECT_DIR)/rtl/verilog/verilog_dut.v
-vcom $env(UVMF_PROJECT_DIR)/rtl/vhdl/vhdl_dut.vhd
+vlog -sv -timescale 1ps/1ps -suppress 2223,2286 $env(UVMF_PROJECT_DIR)/../../../../hdl/or_gate.v
+
 # pragma uvmf custom dut_compile_dofile_target end
 
 ###################################################################

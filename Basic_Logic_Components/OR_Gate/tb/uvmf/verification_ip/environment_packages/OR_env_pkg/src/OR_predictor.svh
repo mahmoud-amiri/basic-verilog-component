@@ -68,7 +68,7 @@ class OR_predictor #(
   // FUNCTION: new
   function new(string name, uvm_component parent);
      super.new(name,parent);
-    `uvm_warning("PREDICTOR_REVIEW", "This predictor has been created either through generation or re-generation with merging.  Remove this warning after the predictor has been reviewed.")
+    //`uvm_warning("PREDICTOR_REVIEW", "This predictor has been created either through generation or re-generation with merging.  Remove this warning after the predictor has been reviewed.")
   // pragma uvmf custom new begin
   // pragma uvmf custom new end
   endfunction
@@ -93,10 +93,9 @@ class OR_predictor #(
     // Construct one of each output transaction type.
     OR_sb_ap_output_transaction = OR_sb_ap_output_transaction_t::type_id::create("OR_sb_ap_output_transaction");
     //  UVMF_CHANGE_ME: Implement predictor model here.  
-    `uvm_info("UNIMPLEMENTED_PREDICTOR_MODEL", "******************************************************************************************************",UVM_NONE)
-    `uvm_info("UNIMPLEMENTED_PREDICTOR_MODEL", "UVMF_CHANGE_ME: The OR_predictor::write_OR_in_agent_ae function needs to be completed with DUT prediction model",UVM_NONE)
-    `uvm_info("UNIMPLEMENTED_PREDICTOR_MODEL", "******************************************************************************************************",UVM_NONE)
- 
+
+    OR_sb_ap_output_transaction.y = t.a | t.b;
+
     // Code for sending output transaction out through OR_sb_ap
     // Please note that each broadcasted transaction should be a different object than previously 
     // broadcasted transactions.  Creation of a different object is done by constructing the transaction 

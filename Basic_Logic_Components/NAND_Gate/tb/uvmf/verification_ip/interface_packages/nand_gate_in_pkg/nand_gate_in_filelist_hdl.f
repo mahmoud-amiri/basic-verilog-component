@@ -1,0 +1,1 @@
+$UVMF_VIP_LIBRARY_HOME/interface_packages/nand_gate_in_pkg/nand_gate_in_pkg_hdl.sv

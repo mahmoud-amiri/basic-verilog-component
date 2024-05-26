@@ -1,0 +1,38 @@
+uvmf:
+  environments:
+    nand_gate:
+      agents:
+      - initiator_responder: INITIATOR
+        name: nand_gate_in_agent
+        type: nand_gate_in
+      - initiator_responder: RESPONDER
+        name: nand_gate_out_agent
+        type: nand_gate_out
+      analysis_components:
+      - name: nand_gate_pred
+        parameters: []
+        type: nand_gate_predictor
+      analysis_exports: []
+      analysis_ports: []
+      config_constraints: []
+      config_vars: []
+      existing_library_component: 'True'
+      hvl_pkg_parameters: []
+      non_uvmf_components: []
+      parameters: []
+      qvip_memory_agents: []
+      scoreboards:
+      - name: nand_gate_sb
+        sb_type: uvmf_in_order_scoreboard
+        trans_type: nand_gate_out_transaction
+      subenvs: []
+      tlm_connections:
+      - driver: nand_gate_in_agent.monitored_ap
+        receiver: nand_gate_pred.nand_gate_in_agent_ae
+        validate: 'True'
+      - driver: nand_gate_pred.nand_gate_sb_ap
+        receiver: nand_gate_sb.expected_analysis_export
+        validate: 'True'
+      - driver: nand_gate_out_agent.monitored_ap
+        receiver: nand_gate_sb.actual_analysis_export
+        validate: 'True'

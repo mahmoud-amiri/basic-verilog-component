@@ -1,0 +1,14 @@
+//----------------------------------------------------------------------
+// Created with uvmf_gen version 2023.4
+//----------------------------------------------------------------------
+// pragma uvmf custom header begin
+// pragma uvmf custom header end
+//----------------------------------------------------------------------
+//----------------------------------------------------------------------
+//
+
+,
+Interface Description, Interface Type, Interface Transaction, Interface Name,
+nand_gate_in_agent, nand_gate_in_driver_bfm nand_gate_in_monitor_bfm, nand_gate_in_transaction, nand_gate_in_pkg_nand_gate_in_agent_BFM,
+nand_gate_out_agent, nand_gate_out_driver_bfm nand_gate_out_monitor_bfm, nand_gate_out_transaction, nand_gate_out_pkg_nand_gate_out_agent_BFM,
+

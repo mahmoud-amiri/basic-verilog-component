@@ -1,0 +1,9 @@
+project:
+  name: "comparator"
+  description: "comparator implementation in verilog"
+  hierarchy:
+    - module_name: "comparator"
+      files:
+        - path: "hdl/comparator.v"
+
+        

@@ -9,19 +9,42 @@ z2
 !i10f 100
 cModel Technology
 dd:/github/basic-verilog-component
+vComparator
+!s110 1716726581
+!i10b 1
+!s100 V7<:Ch[EIzVjazQ_8F@iM2
+II4<K^BT2d>e05B63diFf53
+Z0 dd:/GitHub/basic-verilog-component
+w1716726315
+8d:\GitHub\basic-verilog-component\Basic_Logic_Components\Comparator\hdl\Comparator.v
+Fd:\GitHub\basic-verilog-component\Basic_Logic_Components\Comparator\hdl\Comparator.v
+!i122 31
+L0 1 27
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 OL;L;2021.1;73
+r1
+!s85 0
+31
+!s108 1716726580.000000
+!s107 d:\GitHub\basic-verilog-component\Basic_Logic_Components\Comparator\hdl\Comparator.v|
+!s90 -modelsimini|d:\GitHub\basic-verilog-component\_hdl_checker\modelsim.ini|-quiet|-work|d:\GitHub\basic-verilog-component\_hdl_checker\not_in_project|-lint|-hazards|-pedanticerrors|-L|work|d:\GitHub\basic-verilog-component\Basic_Logic_Components\Comparator\hdl\Comparator.v|
+!i113 0
+o-quiet -work {d:\GitHub\basic-verilog-component\_hdl_checker\not_in_project} -lint -hazards -pedanticerrors -L work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z3 tCvgOpt 0
+n@comparator
 vmoduleName
 !s110 1716472003
 !i10b 1
 !s100 GV7kI54bZG956QR8bNNJj1
 I@gm[19Y2OiiQoIZ8izM0d3
-Z0 dd:/GitHub/basic-verilog-component
+R0
 w1716472002
 8C:\Users\mamir\AppData\Local\Temp\tmp6beuleod.v
 FC:\Users\mamir\AppData\Local\Temp\tmp6beuleod.v
 !i122 11
 L0 1 5
-Z1 VDg1SIo80bB@j0V0VzS_@n1
-Z2 OL;L;2021.1;73
+R1
+R2
 r1
 !s85 0
 31
@@ -29,8 +52,8 @@ r1
 !s107 C:\Users\mamir\AppData\Local\Temp\tmp6beuleod.v|
 !s90 -modelsimini|d:\GitHub\basic-verilog-component\_hdl_checker\modelsim.ini|-quiet|-work|d:\GitHub\basic-verilog-component\_hdl_checker\not_in_project|-lint|-hazards|-pedanticerrors|-L|not_in_project|C:\Users\mamir\AppData\Local\Temp\tmp6beuleod.v|
 !i113 0
-Z3 o-quiet -work {d:\GitHub\basic-verilog-component\_hdl_checker\not_in_project} -lint -hazards -pedanticerrors -L not_in_project -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-Z4 tCvgOpt 0
+Z4 o-quiet -work {d:\GitHub\basic-verilog-component\_hdl_checker\not_in_project} -lint -hazards -pedanticerrors -L not_in_project -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
 nmodule@name
 vor_gate
 !s110 1716487694
@@ -52,5 +75,5 @@ r1
 !s107 C:\Users\mamir\AppData\Local\Temp\tmp8bhz0rlr.v|
 !s90 -modelsimini|d:\GitHub\basic-verilog-component\_hdl_checker\modelsim.ini|-quiet|-work|d:\GitHub\basic-verilog-component\_hdl_checker\not_in_project|-lint|-hazards|-pedanticerrors|-L|not_in_project|C:\Users\mamir\AppData\Local\Temp\tmp8bhz0rlr.v|
 !i113 0
-R3
 R4
+R3
