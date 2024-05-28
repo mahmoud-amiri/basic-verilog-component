@@ -1,0 +1,10 @@
+uvmf:
+  util_components:
+    decoder_predictor:
+      analysis_exports:
+      - name: decoder_in_agent_ae
+        type: 'decoder_in_transaction #()'
+      analysis_ports:
+      - name: decoder_sb_ap
+        type: 'decoder_out_transaction #()'
+      type: predictor

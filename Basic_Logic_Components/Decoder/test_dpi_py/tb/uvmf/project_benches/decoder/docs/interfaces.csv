@@ -1,0 +1,14 @@
+//----------------------------------------------------------------------
+// Created with uvmf_gen version 2023.4
+//----------------------------------------------------------------------
+// pragma uvmf custom header begin
+// pragma uvmf custom header end
+//----------------------------------------------------------------------
+//----------------------------------------------------------------------
+//
+
+,
+Interface Description, Interface Type, Interface Transaction, Interface Name,
+decoder_in_agent, decoder_in_driver_bfm decoder_in_monitor_bfm, decoder_in_transaction, decoder_in_pkg_decoder_in_agent_BFM,
+decoder_out_agent, decoder_out_driver_bfm decoder_out_monitor_bfm, decoder_out_transaction, decoder_out_pkg_decoder_out_agent_BFM,
+

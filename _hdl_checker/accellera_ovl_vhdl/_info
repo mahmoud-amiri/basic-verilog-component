@@ -1,0 +1,33 @@
+m255
+K4
+z2
+!s11e vcom 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dd:/GitHub/basic-verilog-component
+Pstd_ovl
+DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 4
+w1395921374
+R0
+8d:\GitHub\basic-verilog-component\std_ovl\std_ovl.vhd
+Fd:\GitHub\basic-verilog-component\std_ovl\std_ovl.vhd
+l0
+L7 1
+VlKTN]liGYXN:XU:Djd7:23
+!s100 <SK;7VRSIIzRPWe5L1Zj62
+OL;C;2021.1;73
+32
+!s110 1716785663
+!i10b 1
+!s108 1716785663.000000
+!s90 -modelsimini|d:\GitHub\basic-verilog-component\_hdl_checker\modelsim.ini|-quiet|-work|d:\GitHub\basic-verilog-component\_hdl_checker\accellera_ovl_vhdl|-defercheck|-nocheck|-permissive|-explicit|d:\GitHub\basic-verilog-component\std_ovl\std_ovl.vhd|
+!s107 d:\GitHub\basic-verilog-component\std_ovl\std_ovl.vhd|
+!i113 0
+o-permissive -quiet -work {d:\GitHub\basic-verilog-component\_hdl_checker\accellera_ovl_vhdl} -defercheck -nocheck -explicit
+tExplicit 1 CvgOpt 0

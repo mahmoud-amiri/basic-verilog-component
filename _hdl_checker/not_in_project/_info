@@ -32,6 +32,28 @@ r1
 o-quiet -work {d:\GitHub\basic-verilog-component\_hdl_checker\not_in_project} -lint -hazards -pedanticerrors -L work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 Z3 tCvgOpt 0
 n@comparator
+vdecoder
+!s110 1716786771
+!i10b 1
+!s100 Q6RngeFP9S13MXiRQe^]g2
+IgaHE<Hjf:Q<iX;l[QPE5J2
+R0
+w1716786150
+8d:\GitHub\basic-verilog-component\Basic_Logic_Components\Decoder\hdl\Decoder.v
+Fd:\GitHub\basic-verilog-component\Basic_Logic_Components\Decoder\hdl\Decoder.v
+!i122 83
+L0 1 14
+R1
+R2
+r1
+!s85 0
+31
+!s108 1716786771.000000
+!s107 d:\GitHub\basic-verilog-component\Basic_Logic_Components\Decoder\hdl\Decoder.v|
+!s90 -modelsimini|d:\GitHub\basic-verilog-component\_hdl_checker\modelsim.ini|-quiet|-work|d:\GitHub\basic-verilog-component\_hdl_checker\not_in_project|-lint|-hazards|-pedanticerrors|-L|not_in_project|d:\GitHub\basic-verilog-component\Basic_Logic_Components\Decoder\hdl\Decoder.v|
+!i113 0
+Z4 o-quiet -work {d:\GitHub\basic-verilog-component\_hdl_checker\not_in_project} -lint -hazards -pedanticerrors -L not_in_project -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
 vmoduleName
 !s110 1716472003
 !i10b 1
@@ -52,7 +74,7 @@ r1
 !s107 C:\Users\mamir\AppData\Local\Temp\tmp6beuleod.v|
 !s90 -modelsimini|d:\GitHub\basic-verilog-component\_hdl_checker\modelsim.ini|-quiet|-work|d:\GitHub\basic-verilog-component\_hdl_checker\not_in_project|-lint|-hazards|-pedanticerrors|-L|not_in_project|C:\Users\mamir\AppData\Local\Temp\tmp6beuleod.v|
 !i113 0
-Z4 o-quiet -work {d:\GitHub\basic-verilog-component\_hdl_checker\not_in_project} -lint -hazards -pedanticerrors -L not_in_project -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
 R3
 nmodule@name
 vor_gate

@@ -1,0 +1,14 @@
+decoder:  
+  interfaces:
+    in:
+      active_passive: 'ACTIVE' 
+      parameters: 
+        - parameter WIDTH = 8,
+      ports:  #Here we define all of the signal names, directions and widths for the agent/interface
+        - input wire [WIDTH-1:0] in,  // Input of size WIDTH
+    out: 
+      active_passive: 'PASSIVE'
+      parameters: 
+        - parameter WIDTH = 8,
+      ports:  
+        - output wire [(2**WIDTH)-1:0] out,  // Output of size 2^WIDTH  

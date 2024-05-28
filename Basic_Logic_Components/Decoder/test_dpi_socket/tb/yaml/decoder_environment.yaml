@@ -1,0 +1,30 @@
+uvmf:
+  environments:
+    decoder:
+      agents:
+      - name: decoder_in_agent
+        type: decoder_in
+        initiator_responder: "INITIATOR"
+      - name: decoder_out_agent
+        type: decoder_out
+        initiator_responder: "RESPONDER"
+      analysis_components:
+      - name: decoder_pred
+        type: decoder_predictor
+      analysis_exports: []
+      analysis_ports: []
+      config_constraints: []
+      config_vars: []
+      parameters: []
+      scoreboards:
+      - name: decoder_sb
+        sb_type: uvmf_in_order_scoreboard
+        trans_type: decoder_out_transaction
+      subenvs: []
+      tlm_connections:
+      - driver: decoder_in_agent.monitored_ap
+        receiver: decoder_pred.decoder_in_agent_ae
+      - driver: decoder_pred.decoder_sb_ap
+        receiver: decoder_sb.expected_analysis_export
+      - driver: decoder_out_agent.monitored_ap
+        receiver: decoder_sb.actual_analysis_export

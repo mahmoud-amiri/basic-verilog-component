@@ -51,9 +51,54 @@ r1
 !s107 d:\GitHub\basic-verilog-component\Basic_Logic_Components\Comparator\Comparator.v|
 !s90 -modelsimini|d:\GitHub\basic-verilog-component\_hdl_checker\modelsim.ini|-quiet|-work|d:\GitHub\basic-verilog-component\_hdl_checker\default_library|-lint|-hazards|-pedanticerrors|-L|work|d:\GitHub\basic-verilog-component\Basic_Logic_Components\Comparator\Comparator.v|
 !i113 0
-o-quiet -work {d:\GitHub\basic-verilog-component\_hdl_checker\default_library} -lint -hazards -pedanticerrors -L work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z5 o-quiet -work {d:\GitHub\basic-verilog-component\_hdl_checker\default_library} -lint -hazards -pedanticerrors -L work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R4
 n@comparator
+vdecoder
+!s110 1716729764
+!i10b 1
+!s100 oP2FRXSgBob=R?Gn`JBGi1
+I7Q>fA5XjH3L2[@QNhVGYd2
+R0
+w1716729762
+8C:\Users\mamir\AppData\Local\Temp\tmpx6tgfhac.v
+FC:\Users\mamir\AppData\Local\Temp\tmpx6tgfhac.v
+!i122 82
+L0 1 11
+R1
+R2
+r1
+!s85 0
+31
+!s108 1716729763.000000
+!s107 C:\Users\mamir\AppData\Local\Temp\tmpx6tgfhac.v|
+!s90 -modelsimini|d:\GitHub\basic-verilog-component\_hdl_checker\modelsim.ini|-quiet|-work|d:\GitHub\basic-verilog-component\_hdl_checker\default_library|-lint|-hazards|-pedanticerrors|-L|not_in_project|C:\Users\mamir\AppData\Local\Temp\tmpx6tgfhac.v|
+!i113 0
+R3
+R4
+vDecoder2to4
+!s110 1716729746
+!i10b 1
+!s100 fW;52e?=_0D6DKbC58kTk2
+IN>5kA>25?EH=bTNWKePjG3
+R0
+w1716729745
+8C:\Users\mamir\AppData\Local\Temp\tmpjyy6nzhb.v
+FC:\Users\mamir\AppData\Local\Temp\tmpjyy6nzhb.v
+!i122 78
+L0 1 16
+R1
+R2
+r1
+!s85 0
+31
+!s108 1716729746.000000
+!s107 C:\Users\mamir\AppData\Local\Temp\tmpjyy6nzhb.v|
+!s90 -modelsimini|d:\GitHub\basic-verilog-component\_hdl_checker\modelsim.ini|-quiet|-work|d:\GitHub\basic-verilog-component\_hdl_checker\default_library|-lint|-hazards|-pedanticerrors|-L|work|C:\Users\mamir\AppData\Local\Temp\tmpjyy6nzhb.v|
+!i113 0
+R5
+R4
+n@decoder2to4
 vnand_gate
 !s110 1716717480
 !i10b 1
@@ -99,14 +144,14 @@ r1
 o-quiet -work {d:\GitHub\basic-verilog-component\_hdl_checker\default_library} -lint -hazards -pedanticerrors -L default_library -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R4
 vtb_Comparator
-Z5 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z6 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
 !s110 1716726321
 !i10b 1
 !s100 VFRi]jRhX5eDfAoe1N1MQ0
 IPg<Ec5AH`O4Veo@5TnJAM1
 S1
 R0
-Z6 w1715503077
+Z7 w1715503077
 8d:\GitHub\basic-verilog-component\Basic_Logic_Components\Comparator\Comparator-tb.sv
 Fd:\GitHub\basic-verilog-component\Basic_Logic_Components\Comparator\Comparator-tb.sv
 !i122 58
@@ -120,18 +165,43 @@ r1
 !s107 d:\GitHub\basic-verilog-component\Basic_Logic_Components\Comparator\Comparator-tb.sv|
 !s90 -modelsimini|d:\GitHub\basic-verilog-component\_hdl_checker\modelsim.ini|-quiet|-work|d:\GitHub\basic-verilog-component\_hdl_checker\default_library|-sv|-lint|-hazards|-pedanticerrors|-L|work|d:\GitHub\basic-verilog-component\Basic_Logic_Components\Comparator\Comparator-tb.sv|
 !i113 0
-o-quiet -work {d:\GitHub\basic-verilog-component\_hdl_checker\default_library} -sv -lint -hazards -pedanticerrors -L work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 o-quiet -work {d:\GitHub\basic-verilog-component\_hdl_checker\default_library} -sv -lint -hazards -pedanticerrors -L work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R4
 ntb_@comparator
+vtb_Decoder2to4
+R6
+!s110 1716729925
+!i10b 1
+!s100 E4@2>gc:YVTc`j2:2chQZ1
+If@V=@o=>Qh:B2Qm2O;km:0
+S1
+R0
+R7
+8d:\GitHub\basic-verilog-component\Basic_Logic_Components\Decoder\Decoder-tb.sv
+Fd:\GitHub\basic-verilog-component\Basic_Logic_Components\Decoder\Decoder-tb.sv
+!i122 84
+L0 3 36
+R1
+R2
+r1
+!s85 0
+31
+!s108 1716729925.000000
+!s107 d:\GitHub\basic-verilog-component\Basic_Logic_Components\Decoder\Decoder-tb.sv|
+!s90 -modelsimini|d:\GitHub\basic-verilog-component\_hdl_checker\modelsim.ini|-quiet|-work|d:\GitHub\basic-verilog-component\_hdl_checker\default_library|-sv|-lint|-hazards|-pedanticerrors|-L|work|d:\GitHub\basic-verilog-component\Basic_Logic_Components\Decoder\Decoder-tb.sv|
+!i113 0
+R8
+R4
+ntb_@decoder2to4
 vtb_nand_gate
-R5
+R6
 !s110 1716715572
 !i10b 1
 !s100 neb6SFA`Q15WJo[M?K38U2
 In2;3ooZ]Tabi6mV0zSh]j0
 S1
 R0
-R6
+R7
 8d:\GitHub\basic-verilog-component\Basic_Logic_Components\NAND_Gate\NAND-tb.sv
 Fd:\GitHub\basic-verilog-component\Basic_Logic_Components\NAND_Gate\NAND-tb.sv
 !i122 17

@@ -1,0 +1,8 @@
+project:
+  name: "decoder"
+  description: "verilog implementation of decoder"
+  hierarchy:
+    - module_name: "decoder"
+      files:
+        - path: "hdl/decoder.v"
+        
