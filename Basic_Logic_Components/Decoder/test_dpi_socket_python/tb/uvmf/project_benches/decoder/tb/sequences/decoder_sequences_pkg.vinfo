@@ -1,0 +1,7 @@
+@use $UVMF_HOME/uvmf_base_pkg/uvmf_base_pkg.vinfo
+@use $UVMF_VIP_LIBRARY_HOME/interface_packages/decoder_in_pkg/decoder_in_pkg.vinfo
+@use $UVMF_VIP_LIBRARY_HOME/interface_packages/decoder_out_pkg/decoder_out_pkg.vinfo
+@use $UVMF_VIP_LIBRARY_HOME/environment_packages/decoder_env_pkg/decoder_env_pkg.vinfo
+@use $UVMF_PROJECT_DIR/tb/parameters/decoder_parameters_pkg.vinfo
++incdir+@vinfodir
+decoder_sequences_pkg.sv

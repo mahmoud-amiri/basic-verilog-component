@@ -1,0 +1,1 @@
+$UVMF_VIP_LIBRARY_HOME/interface_packages/decoder_out_pkg/decoder_out_pkg_hdl.sv
